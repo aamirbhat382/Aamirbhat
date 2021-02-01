@@ -4,33 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Tech X Blog</title>
+    <title>Aamir Bhat</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/index.css"> -->
 </head>
 
-<body id="bod">
-    <!-- Father Dev Tag **** -->
-    <div class="father" id="father">
-        <!-- Nav-Bar Section -->
-        <div class="Nav-Bar">
-            <ul>
-                <li><a href="#" class="Active">Home</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-            <!-- <div class="lines">
-                <div class="line"></div>
-             <div class="line"></div>
-                <div class="line"></div>
-            </div> -->
-
-
-
+<body>
+    <header>
+        <div class="container">
+            <nav class=" flex space-between item-center">
+                <div class="brand"> Aamir <span>Bhat</span> </div>
+                <div class="nav-links ">
+                    <ul>
+                        <li><a href="Home">Home</a>
+                            <a href="#Blog">Blog</a>
+                            <a href="About">About</a>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-primary">Contact</button>
+            </nav>
+            <div class="flex item-center ">
+                <img src="./images//aamir-bhat.png" alt="" class="face-img">
+                <div class="face-text">
+                    <h1 class="name">Aamir <span>Bhat</span></h1>
+                    <hr class="face-hr">
+                    <p class="face-para"> Developer and Designer </p>
+                    <button class="btn btn-outline"> Contact</button>
+                </div>
+            </div>
         </div>
-        <div class="g">
-            <div class="l"></div>
+    </header>
+    <section id="Card">
+        <div class="container">
+            <div class="col-3 flex item-center space-between ">
+                <div class="card  ">
+                    <div> <img src="./images/business.jpg" alt="" srcset=""></div>
+                    <div class="flex item-center column">
+                        <div class="card-title">
+                            <h3>Business Web Development</h3>
+                        </div>
+
+                        <div class="card-text">
+                            <p> Bring Your Business to The Next Level
+                            </p>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn ">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  ">
+                    <img src="./images/website.jpg" alt="" srcset="">
+                    <div class="flex item-center column">
+                        <div class="card-title">
+                            <h3>Web Design and Development</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>You just Choose a plan,
+                                I do work for You
+                            </p>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn ">Plans</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  ">
+                    <img src="./images/e-commerce.jpg" alt="" srcset="">
+                    <div class="flex item-center column">
+                        <div class="card-title">
+                            <h3>E-Commerce Development</h3>
+                        </div>
+                        <div class="card-text">
+                            <p>Grow Your Business!
+                            </p>
+                        </div>
+                        <div class="card-btn">
+                            <button class="btn ">Call me</button>
+                        </div>
+                    </div>
+                </div>
+              
+
+
+
+            </div>
         </div>
+
+    </section>
+    <section id="contact">
+        <div class="container">
+            <form action="mailto:aamirbhat382@gmail.com" method="POST" class="form-contact flex item-center column">
+                <h1>Contact</h1>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea name="" id="" cols="30" rows="10" required placeholder="Message"></textarea>
+                <button class="btn btn-dark"> Send mail</button>
+            </form>
+            <hr>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+        <div class="About flex item-center column">
+            <h1>About</h1>
+            <h3>Aamir Hussain Bhat</h3>
+        </div>
+    </div>
+    </section>
 </body>
-<script src="script.js"></script>
-
 </html>

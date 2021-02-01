@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("index.css");
+:root {
+  --dark: #191b1e;
+  --light: #ffffff;
+  --primary: #bdafd2;
+  --secondary: #d68b8b;
+  --green: #379437;
+  --pure: #fff;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+    background-color:#f8f9fa
+}
+header {
+  background-color: var(--dark);
+}
+
+.brand {
+  color: var(--light);
+  text-transform: uppercase;
+  padding: 0.8rem 0rem;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 400;
+}
+
+.nav-links ul li {
+  list-style: none;
+}
+.nav-links ul li a {
+  padding: 00.8rem 0.8rem;
+  color: var(--light);
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  padding-right: 6px;
+  font-weight: 600;
+  transition: 3s ease;
+}
+.nav-links ul li a:hover {
+  color: var(--primary);
+}
+
+.face-img {
+  height: 28rem;
+  top: 16px;
+  position: relative;
+}
+.face-text {
+  margin-left: 12rem;
+}
+.name {
+  color: var(--green);
+}
+.name span {
+    color: var(--light);
+  }
+.face-hr {
+  width: 8rem;
+  /* height: 5px; */
+  color: var(--light);
+  border: 3px solid;
+  box-shadow: bisque;
+  box-shadow: 128px 0px var(--green);
+}
+.face-para{
+    color: var(--light);
+    padding: 8px 0px;
+}
+
+
+/* Form Contact */
+.form-contact{
+    padding: 1rem 2rem;
+}
+.form-contact input{
+    width: 40vw;
+    padding: 0.4rem;
+    outline: none;
+    border: 1px solid var(--green);
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+} 
+.form-contact textarea{
+    padding: 0.4rem;
+    width: 40vw;
+    height: 51px;
+    outline: none;
+    border: 1px solid var(--green);
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+.form-contact button{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+.form-contact h1{
+    padding: 1rem 0rem;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    font-weight: 400;
+}

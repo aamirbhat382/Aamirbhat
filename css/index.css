@@ -1,0 +1,114 @@
+.container {
+  width: 78vw;
+  margin: 0rem 8rem;
+  padding: 1rem 1rem;
+}
+/* Flex */
+.flex {
+  display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.space-between {
+  justify-content: space-between;
+}
+.item-center {
+  align-items: center;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.8rem 2rem;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 1s ease;
+}
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--light);
+  color: var(--light);
+  font-weight: bold;
+}
+.btn-outline:hover {
+  background-color: var(--primary);
+  border: 1px solid var(--light);
+  color: var(--dark);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  font-weight: 400;
+}
+.btn-dark {
+    background-color: var(--green);
+    font-weight: 400;
+    color: var(--dark);
+    transition: 1s ease;
+  }
+  .btn-dark:hover {
+    background-color: var(--dark);
+    font-weight: 400;
+    color: var(--light);
+    border: 1px solid var(--green);
+  }
+
+.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid var(--light);
+  color: var(--light);
+}
+
+/* card */
+.card {
+  border: 1px solid var(--green);
+  padding-bottom: 0.8rem;
+  margin-left: 1rem;
+  border-radius: 3px;
+  height: 18rem;
+}
+.card img{
+    width: 18rem;
+    height: 10rem;
+}
+
+
+.card-title{
+color: var(--green);
+font-family: 'Libre Baskerville', serif;
+}
+.card-text{
+color: var(--dark);
+font-family: "Roboto Slab", serif , Arial, Helvetica, sans-serif;
+font-weight: 400;
+padding: 5px;
+font-family: 'Bitter', serif;
+font-style: italic;
+font-weight: 600;
+
+
+}
+.card-btn{
+color: var(--light);
+
+
+}
+.card-btn button{
+    background-color: var(--dark);
+color: var(--light);
+transition: 1s ease;
+font-family: 'Bitter', serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+}
+.card-btn button:hover{
+    background-color: var(--green);
+color: var(--dark);
+border: 1px solid var(--dark);
+}
