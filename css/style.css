@@ -191,3 +191,61 @@ footer .footer-right{
   font-family: "Roboto Slab", serif;
   font-size: 2rem;
 }
+@media (min-width: 1148px){
+  .hamberger img{
+    display: none;
+  }
+}
+@media (max-width: 1148px) {
+  header .nav-links,
+  .nav-button {
+    display: none;
+  }
+  .col-3{
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+  }
+  .card{
+    margin: 1rem 0rem;
+    width: 33rem;
+    height: auto;
+
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+@media only screen and (max-width: 576px){
+  .face-img{
+    width: 137px;
+  }
+  .name{
+    font-size: 10px;
+  }
+  .face-hr{
+    display: none
+  }
+  .about{
+    /* padding: 1rem 0rem; */
+    flex-direction: column;
+  }
+  .about .about-img{
+    height: 14rem;
+  }
+  .form-contact input{
+    width: 60vw;
+  }
+  .form-contact textarea{
+    width: 60vw;
+  }
+  .right{
+    margin: 0px 0px;
+  }
+  .footer-face{
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+  }
+
+}
