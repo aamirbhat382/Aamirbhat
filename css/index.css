@@ -1,14 +1,43 @@
-.container {
-  width: 78vw;
-  margin: 0rem 8rem;
-  padding: 1rem 1rem;
+.container{
+  max-width:1152px;
+  padding:0 20px;
+  margin:0 auto;
+}
+
+@media (min-width: 200px){
+  .container {
+    max-width: 100vw;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
 }
 /* Flex */
 .flex {
   display: flex;
 }
-.column{
-    flex-direction: column;
+.column {
+  flex-direction: column;
 }
 .wrap {
   flex-wrap: wrap;
@@ -46,17 +75,17 @@
   font-weight: 400;
 }
 .btn-dark {
-    background-color: var(--green);
-    font-weight: 400;
-    color: var(--dark);
-    transition: 1s ease;
-  }
-  .btn-dark:hover {
-    background-color: var(--dark);
-    font-weight: 400;
-    color: var(--light);
-    border: 1px solid var(--green);
-  }
+  background-color: var(--green);
+  font-weight: 400;
+  color: var(--dark);
+  transition: 1s ease;
+}
+.btn-dark:hover {
+  background-color: var(--dark);
+  font-weight: 400;
+  color: var(--light);
+  border: 1px solid var(--green);
+}
 
 .btn-primary:hover {
   background-color: transparent;
@@ -72,43 +101,139 @@
   border-radius: 3px;
   height: 18rem;
 }
-.card img{
-    width: 18rem;
-    height: 10rem;
+.card img {
+  width: 18rem;
+  height: 10rem;
+}
+
+.card-title {
+  color: var(--green);
+  font-family: "Libre Baskerville", serif;
+}
+.card-text {
+  color: var(--dark);
+  font-family: "Roboto Slab", serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  font-family: "Bitter", serif;
+  font-style: italic;
+  font-weight: 600;
+}
+.card-btn {
+  color: var(--light);
+}
+.card-btn button {
+  background-color: var(--dark);
+  color: var(--light);
+  transition: 1s ease;
+  font-family: "Bitter", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.card-btn button:hover {
+  background-color: var(--green);
+  color: var(--dark);
+  border: 1px solid var(--dark);
 }
 
 
-.card-title{
-color: var(--green);
-font-family: 'Libre Baskerville', serif;
+/* List */
+
+.hamberger{
+  position:absolute;
+  top:40px;
+  right:40px;
+  z-index:11;
+  background:none;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  /* display:none; */
 }
-.card-text{
-color: var(--dark);
-font-family: "Roboto Slab", serif , Arial, Helvetica, sans-serif;
-font-weight: 400;
-padding: 5px;
-font-family: 'Bitter', serif;
-font-style: italic;
-font-weight: 600;
+.hamberger  img{
+  width: 30px;
+}
+.mobile-nav{
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:1001;
+  background:var(--pure);
+  width:100%;
+  height:100%;
+  padding:2rem;
+  padding-top:5rem;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transition:all .5s ease-in-out;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -ms-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+}
+.times{
+  
+    position:fixed;
+    top:30px;
+    right:230px;
+    border: none;
+    background: none;
+    outline:none;
+    cursor: pointer; 
+    
+
+}
+.times img{
+  width: 50px;
+}
+.mobile-nav ul{
+  list-style-type: none;
+}
+.mobile-nav ul li a{
+  color:var(--dark);
+  text-decoration:none;
+  font-size: 2rem;
+}
+
+.open{
+  transform:translateX(0);
+  -webkit-transform:translateX(0);
+  -moz-transform:translateX(0);
+  -ms-transform:translateX(0);
+  -o-transform:translateX(0);
+}
 
 
+
+@media (max-width: 1148px) {
+  header .nav-links,
+  .nav-button {
+    display: none;
+  }
+  .col-3{
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+  }
+  .card{
+    margin: 1rem 0rem;
+    width: 33rem;
+    height: auto;
+
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+  }
 }
-.card-btn{
-color: var(--light);
+@media only screen and (max-width: 576px){
+  .footer-face{
+    grid-template-columns: repeat(1 1rf);
+  }
+
+}
 
 
-}
-.card-btn button{
-    background-color: var(--dark);
-color: var(--light);
-transition: 1s ease;
-font-family: 'Bitter', serif;
-font-weight: 400;
-font-style: normal;
-font-size: 20px;
-}
-.card-btn button:hover{
-    background-color: var(--green);
-color: var(--dark);
-border: 1px solid var(--dark);
-}

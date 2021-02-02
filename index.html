@@ -10,109 +10,194 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav class=" flex space-between item-center">
-                <div class="brand"> Aamir <span>Bhat</span> </div>
-                <div class="nav-links ">
-                    <ul>
-                        <li><a href="Home">Home</a>
-                            <a href="#Blog">Blog</a>
-                            <a href="About">About</a>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="btn btn-primary">Contact</button>
-            </nav>
-            <div class="flex item-center ">
-                <img src="./images//aamir-bhat.png" alt="" class="face-img">
-                <div class="face-text">
-                    <h1 class="name">Aamir <span>Bhat</span></h1>
-                    <hr class="face-hr">
-                    <p class="face-para"> Developer and Designer </p>
-                    <button class="btn btn-outline"> Contact</button>
+
+    <div class="Father-div">
+        <button class="hamberger">
+            <img src="./images/list-white-18dp.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/clear-black-18dp.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav class=" flex space-between item-center nav-bar">
+                    <div class="brand"> Aamir <span>Bhat</span> </div>
+                    <div class="nav-links ">
+                        <ul>
+                            <li><a href="Home">Home</a>
+                                <a href="#Blog">Blog</a>
+                                <a href="About">About</a>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary nav-button">Contact</button>
+                </nav>
+                <div class="flex item-center   hero">
+                    <div class="face-left">
+                        <img src="./images//aamir-bhat.png" alt="" class="face-img">
+                    </div>
+                    <div class="face-right">
+                        <h1 class="name">Aamir <span>Bhat</span></h1>
+                        <hr class="face-hr">
+                        <p class="face-para"> Developer and Designer </p>
+                        <button class="btn btn-outline"> Contact</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <section id="Card">
-        <div class="container">
-            <div class="col-3 flex item-center space-between ">
-                <div class="card  ">
-                    <div> <img src="./images/business.jpg" alt="" srcset=""></div>
-                    <div class="flex item-center column">
-                        <div class="card-title">
-                            <h3>Business Web Development</h3>
-                        </div>
+        </header>
+        <section id="Card">
+            <div class="container">
+                <div class="col-3 flex item-center space-between ">
+                    <div class="card  ">
+                        <div> <img src="./images/business.jpg" alt="" srcset=""></div>
+                        <div class="flex item-center column">
+                            <div class="card-title">
+                                <h3>Business Web Development</h3>
+                            </div>
 
-                        <div class="card-text">
-                            <p> Bring Your Business to The Next Level
-                            </p>
-                        </div>
-                        <div class="card-btn">
-                            <button class="btn ">Learn More</button>
+                            <div class="card-text">
+                                <p> Bring Your Business to The Next Level
+                                </p>
+                            </div>
+                            <div class="card-btn">
+                                <button class="btn ">Learn More</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card  ">
-                    <img src="./images/website.jpg" alt="" srcset="">
-                    <div class="flex item-center column">
-                        <div class="card-title">
-                            <h3>Web Design and Development</h3>
-                        </div>
-                        <div class="card-text">
-                            <p>You just Choose a plan,
-                                I do work for You
-                            </p>
-                        </div>
-                        <div class="card-btn">
-                            <button class="btn ">Plans</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card  ">
-                    <img src="./images/e-commerce.jpg" alt="" srcset="">
-                    <div class="flex item-center column">
-                        <div class="card-title">
-                            <h3>E-Commerce Development</h3>
-                        </div>
-                        <div class="card-text">
-                            <p>Grow Your Business!
-                            </p>
-                        </div>
-                        <div class="card-btn">
-                            <button class="btn ">Call me</button>
+                    <div class="card  ">
+                        <img src="./images/website.jpg" alt="" srcset="">
+                        <div class="flex item-center column">
+                            <div class="card-title">
+                                <h3>Web Design and Development</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>You just Choose a plan,
+                                    I do work for You
+                                </p>
+                            </div>
+                            <div class="card-btn">
+                                <button class="btn ">Plans</button>
+                            </div>
                         </div>
                     </div>
+                    <div class="card  ">
+                        <img src="./images/e-commerce.jpg" alt="" srcset="">
+                        <div class="flex item-center column">
+                            <div class="card-title">
+                                <h3>E-Commerce Development</h3>
+                            </div>
+                            <div class="card-text">
+                                <p>Grow Your Business!
+                                </p>
+                            </div>
+                            <div class="card-btn">
+                                <button class="btn ">Call me</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
-              
-
-
-
             </div>
-        </div>
 
-    </section>
-    <section id="contact">
-        <div class="container">
-            <form action="mailto:aamirbhat382@gmail.com" method="POST" class="form-contact flex item-center column">
-                <h1>Contact</h1>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea name="" id="" cols="30" rows="10" required placeholder="Message"></textarea>
-                <button class="btn btn-dark"> Send mail</button>
-            </form>
-            <hr>
-        </div>
-    </section>
-    <section id="about">
-        <div class="container">
-        <div class="About flex item-center column">
-            <h1>About</h1>
-            <h3>Aamir Hussain Bhat</h3>
-        </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="contact">
+                    <form action="mailto:aamirbhat382@gmail.com" method="POST"
+                        class="form-contact flex item-center column">
+                        <h1>Contact</h1>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea name="" id="" cols="30" rows="10" required placeholder="Message"></textarea>
+                        <button class="btn btn-dark"> Send mail</button>
+                    </form>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <!-- <div class="flex item-center column section-about">
+                    <h1 class="about-section">About</h1>
+                </div> -->
+                <div class="flex item-center about">
+                    <div>
+                        <img src="./images/IMG_3164.JPG" alt="" srcset="">
+                    </div>
+                    <div class="right">
+                        <h1>Aamir Hussain <span>Bhat</span> </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod blanditiis optio quos itaque
+                            nam
+                            aliquam harum praesentium iste expedita, voluptatibus omnis explicabo magni modi cumque
+                            similique ratione dolore consectetur eius?</p>
+                        <div class="social-icons">
+                            <a href=""><img src="./images/facebook.svg" alt="" srcset=""></a>
+                            <a href=""><img src="./images/github.svg" alt="" srcset=""></a>
+                            <a href=""><img src="./images/twitter.svg" alt="" srcset=""></a>
+                            <a href=""><img src="./images/instagram.svg" alt="" srcset=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-face">
+                    <div class="footer-left">
+                        <h6>Aamir Bhat</h6>
+
+                        <ul>
+                            <li><a href="Home">Home</a> </li>
+                            <li> <a href="#blog">Blog</a></li>
+                            <li> <a href="#about">About</a></li>
+                            <li> <a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-center">
+                        <h6>Websites</h6>
+                        <ul>
+                            <li>Homepages</li>
+                            <li>Magazine</li>
+                            <li>Portfolio</li>
+                            <li>E-Commerace</li>
+                            <li>Blogs</li>
+                            <li>Landing pages</li>
+                            <li>Social media</li>
+                            <li>Directory and Contact pages</li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-right">
+                        <h6>
+                            Contact
+                        </h6>
+                        <ul>
+                            <li> Phone : +91- 6005203531</li>
+                            <li> E-mail : aamirbhat382@gmail.com</li>
+                            <li>
+                                <Address>Magam Handwara J&K , India 193221 </Address>
+                            </li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        </Righth>
+                    </div>
+                </div>
+        </footer>
     </div>
-    </section>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

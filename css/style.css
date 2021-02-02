@@ -14,8 +14,14 @@
   padding: 0%;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-color:#f8f9fa
+}
+.Father-div{
+  position: relative;
 }
 header {
   background-color: var(--dark);
@@ -28,7 +34,9 @@ header {
   font-family: "Alfa Slab One", cursive;
   font-weight: 400;
 }
-
+.nav-bar{
+  padding: 2rem 0rem;
+}
 .nav-links ul li {
   list-style: none;
 }
@@ -45,14 +53,15 @@ header {
   color: var(--primary);
 }
 
+.hero{
+  padding: 0rem 3rem;
+}
 .face-img {
-  height: 28rem;
-  top: 16px;
+  /* width: 400px; */
+  top: 4px;
   position: relative;
 }
-.face-text {
-  margin-left: 12rem;
-}
+
 .name {
   color: var(--green);
 }
@@ -72,8 +81,13 @@ header {
     padding: 8px 0px;
 }
 
-
+.col-3{
+  padding: 3rem 3rem
+}
 /* Form Contact */
+.contact{
+  padding: 3rem 3rem;
+}
 .form-contact{
     padding: 1rem 2rem;
 }
@@ -103,4 +117,77 @@ header {
     font-family: 'Righteous', cursive;
     font-size: 30px;
     font-weight: 400;
+}
+
+/* About */
+.section-about{
+  padding: 1rem 1rem;
+}
+.about{
+  padding: 3rem 3rem;
+}
+.about h1{
+  color: var(--green);
+}
+.about img{
+ height: 30rem;
+}
+.about h1 span{
+  color: var(--primary);
+}
+.right{
+  margin-left: 5rem;
+}
+
+
+.social-icons img{
+  margin-top: 1rem;
+  margin-left: 0.4rem;
+  width: 23px;
+  height: 23px;
+}
+.social-icons img:hover{
+  border-radius: 1rem;
+  background-color: var(--primary)
+}
+footer{
+  background-color: var(--dark);
+  padding: 1rem;
+
+}
+.footer-face{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-face li{
+  list-style: none;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-face a{
+  text-decoration: none;
+  color: var(--pure);
+}
+
+
+footer .footer-left{
+  color: var(--light);
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+.footer-left li a{
+  color: var(--primary);
+}
+footer .footer-center{
+  color: var(--light);
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+.footer-center li{
+  color: var(--green);
+}
+footer .footer-right{
+  color: var(--light);
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
 }
