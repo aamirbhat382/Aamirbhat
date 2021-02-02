@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("index.css");
+:root {
+  --dark: #191b1e;
+  --light: #ffffff;
+  --primary: #bdafd2;
+  --secondary: #d68b8b;
+  --green: #379437;
+  --pure: #fff;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    background-color:#f8f9fa
+}
+.Father-div{
+  position: relative;
+}
+header {
+  background-color: var(--dark);
+}
+
+.brand {
+  color: var(--light);
+  text-transform: uppercase;
+  padding: 0.8rem 0rem;
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 400;
+}
+.nav-bar{
+  padding: 2rem 0rem;
+}
+.nav-links ul li {
+  list-style: none;
+}
+.nav-links ul li a {
+  padding: 00.8rem 0.8rem;
+  color: var(--light);
+  text-decoration: none;
+  font-family: "Roboto Slab", serif;
+  padding-right: 6px;
+  font-weight: 600;
+  transition: 3s ease;
+}
+.nav-links ul li a:hover {
+  color: var(--primary);
+}
+
+.hero{
+  padding: 0rem 3rem;
+}
+.face-img {
+  /* width: 400px; */
+  top: 4px;
+  position: relative;
+}
+
+.name {
+  color: var(--green);
+}
+.name span {
+    color: var(--light);
+  }
+.face-hr {
+  width: 8rem;
+  /* height: 5px; */
+  color: var(--light);
+  border: 3px solid;
+  box-shadow: bisque;
+  box-shadow: 128px 0px var(--green);
+}
+.face-para{
+    color: var(--light);
+    padding: 8px 0px;
+}
+
+.col-3{
+  padding: 3rem 3rem
+}
+/* Form Contact */
+.contact{
+  padding: 3rem 3rem;
+}
+.form-contact{
+    padding: 1rem 2rem;
+}
+.form-contact input{
+    width: 40vw;
+    padding: 0.4rem;
+    outline: none;
+    border: 1px solid var(--green);
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+} 
+.form-contact textarea{
+    padding: 0.4rem;
+    width: 40vw;
+    height: 51px;
+    outline: none;
+    border: 1px solid var(--green);
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+}
+.form-contact button{
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+.form-contact h1{
+    padding: 1rem 0rem;
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* About */
+.section-about{
+  padding: 1rem 1rem;
+}
+.about{
+  padding: 3rem 3rem;
+}
+.about h1{
+  color: var(--green);
+}
+.about img{
+ height: 30rem;
+}
+.about h1 span{
+  color: var(--primary);
+}
+.right{
+  margin-left: 5rem;
+}
+
+
+.social-icons img{
+  margin-top: 1rem;
+  margin-left: 0.4rem;
+  width: 23px;
+  height: 23px;
+}
+.social-icons img:hover{
+  border-radius: 1rem;
+  background-color: var(--primary)
+}
+footer{
+  background-color: var(--dark);
+  padding: 1rem;
+
+}
+.footer-face{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-face li{
+  list-style: none;
+  font-size: 1rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-face a{
+  text-decoration: none;
+  color: var(--pure);
+}
+
+
+footer .footer-left{
+  color: var(--light);
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+.footer-left li a{
+  color: var(--primary);
+}
+footer .footer-center{
+  color: var(--light);
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+.footer-center li{
+  color: var(--green);
+}
+footer .footer-right{
+  color: var(--light);
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+@media (min-width: 1148px){
+  .hamberger img{
+    display: none;
+  }
+}
+@media (max-width: 1148px) {
+  header .nav-links,
+  .nav-button {
+    display: none;
+  }
+  .col-3{
+    flex-wrap: wrap;
+    margin: 1rem 0rem;
+  }
+  .card{
+    margin: 1rem 0rem;
+    width: 33rem;
+    height: auto;
+
+  }
+  .card img{
+    width: 100%;
+    height: auto;
+  }
+  
+}
+@media only screen and (max-width: 576px){
+  .nav-bar{
+    padding: 0.8rem 0rem;
+  }
+  .face-img{
+    width: 137px;
+  }
+  .name{
+    font-size: 10px;
+  }
+  .face-hr{
+    display: none
+  }
+  .about{
+    /* padding: 1rem 0rem; */
+    flex-direction: column;
+  }
+  .about .about-img{
+    height: 14rem;
+  }
+  .form-contact input{
+    width: 60vw;
+  }
+  .form-contact textarea{
+    width: 60vw;
+  }
+  .right{
+    margin: 0px 0px;
+  }
+  .footer-face{
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+  }
+
+}
