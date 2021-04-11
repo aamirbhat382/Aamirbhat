@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-<meta name="google-site-verification" content="9jMWRwHFfYtgFqnqKBoMNQk8jI4ZPAaX4RpsrXaWnk8" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel=" icon" href="/favicon.ico">
@@ -25,104 +24,212 @@
         <div class="mobile-nav">
             <button class="times"><img src="./images/clear-black-18dp.svg" alt=""></button>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">Blog</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-               
+                <li><a href="#Home">Home</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#About">About</a></li>
+                <li> <a href="#contact">Contact</a></li>
             </ul>
         </div>
-         <header>
-            <div class="container">
-                <nav class=" flex space-between item-center nav-bar">
-                    <div class="brand"> Aamir <span>Bhat</span> </div>
-                    <div class="nav-links ">
-                        <ul>
-                            <li><a href="Home">Home</a>
-                                <a href="#Blog">Blog</a>
-                                <a href="About">About</a>
-                                <a href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <button class="btn btn-primary nav-button">Contact</button>
-                </nav>
-                <div class="flex item-center   hero">
-                    <div class="face-left">
-                        <img src="./images//aamir-bhat.png" alt="" class="face-img">
-                    </div>
-                    <div class="face-right">
-                        <h1 class="name">Aamir <span>Bhat</span></h1>
-                        <hr class="face-hr">
-                        <p class="face-para"> Developer and Designer </p>
-                        <button class="btn btn-outline"> Contact</button>
-                    </div>
+        <!-- Header or Nav  -->
+        <header>
+            <nav class="nav-bar">
+                <a href="#" class="logo in-nav-bar logo-wrapper"><img src="./images/Dark Blue Club Logo (3).png" alt="" srcset="">
+                    <span>Aamir Bhat</span></a>
+                <div class="nav-bar-middle">
+                    <ul>
+                        <li><a href="#" class="current">Home</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+
                 </div>
-            </div>
+                <div class="nav-bottom">
+                    <a target="_blank" href="https://www.facebook.com/codersgyan" class="social-icons" aria-label="Facebook">
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/codersgyan" class="social-icons" aria-label="Facebook">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/codersgyan" class="social-icons" aria-label="Facebook">
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/codersgyan" class="social-icons" aria-label="Facebook">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg></a>
+                </div>
+            </nav>
         </header>
-        <section id="Card">
-            <div class="container">
-                <div class="col-3 flex item-center space-between ">
-                    <div class="card  ">
-                        <div> <img src="./images/business.jpg" alt="" srcset=""></div>
-                        <div class="flex item-center column">
-                            <div class="card-title">
-                                <h3>Business Web Development</h3>
+        <!-- Hero Section image , Text & Button  -->
+        <div class="flex item-center justify-center hero ">
+            <div class="face-left">
+                <img src="./images//aamir-bhat.png" alt="" class="face-img">
+            </div>
+            <div class="face-right">
+                <h1 class="name">Aamir <span>Bhat</span></h1>
+                <hr class="face-hr">
+                <p class="face-para"> Developer and Designer </p>
+                <button class="btn btn-outline"> Contact</button>
+            </div>
+        </div>
+        <!-- Section Projects -->
+        <section id="projects" class="mt-1">
+            <h1 class="projects">Project's</h1>
+            <div class="standard-wrapper">
+                <div class="card-container ">
+                    <div class="card">
+                        <a href="#" class="card-img" aria-hidden="true" tabindex="-1">
+                            <img alt="aamirenterprises" class="lazy loaded" width="335" height="200" src="./images/Screenshot (25).png">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-body-top">
+                                <div class="card-body-header">
+                                    <a href="#" class="card-body-tag">
+                                        E-Commerce
+                                        <span class="icon-chevron-right" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                                <a href="https://aamirbhat.xyz" target="_blank" class="card-body-title">
+                                    <h2> A complete E-Commerce website with payment gateway</h2>
+                                </a>
                             </div>
+                            <div class="card-bottom">
+                                <div class="card-bottom-body">
+                                    <div class="card-author">
+                                        <a href="#" class="card-avatar-img in-card " aria-label="Labham Jain's profile'" aria-haspopup="false">
+                                            <img alt="" class="lazy loaded" width="32" height="32" data-ll-status="loaded" src="./images/aamirbhat.jpg">
+                                        </a>
+                                        <span>
+                                            By
+                                            <a href="#">Aamir Bhat</a>
+                                        </span>
+                                    </div>
 
-                            <div class="card-text">
-                                <p> Bring Your Business to The Next Level
-                                </p>
-                            </div>
-                            <div class="card-btn">
-                                <button class="btn ">Learn More</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card  ">
-                        <img src="./images/website.jpg" alt="" srcset="">
-                        <div class="flex item-center column">
-                            <div class="card-title">
-                                <h3>Web Design and Development</h3>
+                    <div class="card">
+                        <a href="#" class="card-img" aria-hidden="true" tabindex="-1">
+                            <img alt="aamirenterprises" class="lazy loaded" width="335" height="200" src="./images/Screenshot (26).png">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-body-top">
+                                <div class="card-body-header">
+                                    <a href="" class="card-body-tag">
+                                        Quran Audio
+                                        <span class="icon-chevron-right" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                                <a href="https://aamirbhat382.github.io/Quran-audio-api/" target="_blank" class="card-body-title">
+                                    <h2>Listen the Holy Quran Online</h2>
+                                </a>
                             </div>
-                            <div class="card-text">
-                                <p>You just Choose a plan,
-                                    I do work for You
-                                </p>
-                            </div>
-                            <div class="card-btn">
-                                <button class="btn ">Plans</button>
+                            <div class="card-bottom">
+                                <div class="card-bottom-body">
+                                    <div class="card-author">
+                                        <a href="" class="card-avatar-img in-card " aria-label="Labham Jain's profile'" aria-haspopup="false">
+                                            <img alt="" class="lazy loaded" width="32" height="32" data-ll-status="loaded" src="./images/Aamir-bhat-logo.png">
+                                        </a>
+                                        <span>
+                                            By
+                                            <a href="">Aamir Bhat</a>
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card  ">
-                        <img src="./images/e-commerce.jpg" alt="" srcset="">
-                        <div class="flex item-center column">
-                            <div class="card-title">
-                                <h3>E-Commerce Development</h3>
+                    <div class="card">
+                        <a href="#" class="card-img" aria-hidden="true" tabindex="-1">
+                            <img data-src="/content/images/size/w750/2021/02/node-js-login-1.png" alt="" class="lazy loaded" width="335" height="200" src="./images/django.png">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-body-top">
+                                <div class="card-body-header">
+                                    <a href="#" class="card-body-tag">
+                                        Django
+                                        <span class="icon-chevron-right" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                                <a href="https://github.com/aamirbhat382/Django-E-commerce-and-Blog-Website" class="card-body-title">
+                                    <h2>Django E-Commerce with Blog</h2>
+                                </a>
                             </div>
-                            <div class="card-text">
-                                <p>Grow Your Business!
-                                </p>
-                            </div>
-                            <div class="card-btn">
-                                <button class="btn ">Call me</button>
+                            <div class="card-bottom">
+                                <div class="card-bottom-body">
+                                    <div class="card-author">
+                                        <a href="#" class="card-avatar-img in-card " aria-label="Labham Jain's profile'" aria-haspopup="false">
+                                            <img alt="" class="lazy loaded" width="32" height="32" data-ll-status="loaded" src="./images/aamirbhat.jpg">
+                                        </a>
+                                        <span>
+                                            By
+                                            <a href="#">Aamir Bhat</a>
+                                        </span>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                     </div>
-
-
-
+                    <div class="card">
+                        <a href="" class="card-img" aria-hidden="true" tabindex="-1">
+                            <img data-src="/content/images/size/w750/2021/02/node-js-login-1.png" alt="" class="lazy loaded" width="335" height="200" src="./images/blog.jpg">
+                        </a>
+                        <div class="card-body">
+                            <div class="card-body-top">
+                                <div class="card-body-header">
+                                    <a href="" class="card-body-tag">
+                                        Nodejs
+                                        <span class="icon-chevron-right" aria-hidden="true"></span>
+                                    </a>
+                                </div>
+                                <a href="https://github.com/aamirbhat382/Blog-with-node-" class="card-body-title">
+                                    <h2>Blog with Nodejs</h2>
+                                </a>
+                            </div>
+                            <div class="card-bottom">
+                                <div class="card-bottom-body">
+                                    <div class="card-author">
+                                        <a href="" class="card-avatar-img in-card " aria-label="Labham Jain's profile'" aria-haspopup="false">
+                                            <img alt="" class="lazy loaded" width="32" height="32" data-ll-status="loaded" src="./images/Aamir-bhat-logo.png">
+                                        </a>
+                                        <span>
+                                            By
+                                            <a href="">Aamir Bhat</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
 
         </section>
+        <!-- Contact -->
         <section id="contact">
             <div class="container">
                 <div class="contact">
-                    <form action="mailto:aamirbhat382@gmail.com" method="POST"
-                        class="form-contact flex item-center column">
+                    <form action="mailto:aamirbhat382@gmail.com" method="POST" class="form-contact flex item-center column">
                         <h1>Contact</h1>
                         <input type="text" placeholder="Name" required>
                         <input type="email" placeholder="Email" required>
@@ -133,18 +240,19 @@
                 </div>
             </div>
         </section>
-        <section id="about">
+        <!-- About -->
+        <section id="About">
             <div class="container">
-                 <div class="flex item-center column section-about">
+                <div class="flex item-center column section-about">
                     <h1 class="about-section">About</h1>
-                </div> 
-                <div class="flex item-center about">
+                </div>
+                <div class="flex item-center  column about">
                     <div>
-                        <img clasd ="about-img"src="./images/IMG_3164.JPG" alt="" srcset="">
+                        <img clasd="about-img" src="./images/IMG_3164.JPG" alt="" srcset="">
                     </div>
                     <div class="right">
                         <h1>Aamir Hussain <span>Bhat</span> </h1>
-                        <p>I am Web Developer and Designer. I have learned Web Development from different sources. I have made a lot of websites . I start learning from 2017 and i am  now Ready to make  awesome Websites.... </p>
+                        <p>I am Web Developer and Designer. I have learned Web Development from different sources. I have made a lot of websites . I start learning from 2017 and i am now Ready to make awesome Websites.... </p>
                         <div class="social-icons">
                             <a href="https://www.facebook.com/aamirbhat382/" target="blank"><img src="./images/facebook.svg" alt="" srcset=""></a>
                             <a href="https://github.com/aamirbhat382" target="blank"><img src="./images/github.svg" alt="" srcset=""></a>
@@ -154,7 +262,7 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <footer id="footer">
             <div class="container">
                 <div class="footer-face">
@@ -199,8 +307,8 @@
                     </div>
                 </div>
         </footer>
-    </div>
-    <script src="./js/script.js"></script>
+        </div>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
