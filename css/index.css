@@ -81,7 +81,7 @@
 }
 
 .btn-outline:hover {
-    background-color: var(--primary);
+    background-color: #5e727e;
     border: 1px solid var(--light);
     color: var(--dark);
 }
